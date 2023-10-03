@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+   
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-image: url("meteorological-department-cloudy-sky-stormy-weather-background-and-wallpaper-free-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    align-content: center; 
+  
+    
+   
+}
+.frade{
+  
+    border-bottom: 4px solid red;
+   
+}
+.title{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.9rem;
+    font-weight: 700;
+  
+}
+.tab{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px;
+   
+}
+.grant{
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    right: 36%;
+    top: 30%;
+    scale: 0;
+}
+.icon{
+   
+    padding:  12px 20px;
+    border-radius: 100%;
+    background-color: rgb(43, 243, 43);
+    box-shadow: 0px 0px 8px 8px  rgb(43, 243, 43);
+}
+.btn1 button{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.searchTab{
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 24%;
+    gap: 1rem;
+    margin-bottom: 10px;
+    scale: 0;
+    z-index: 3;
+    
+ 
+   
+    
+} 
+.btn3{
+    height: 2.4rem;
+    width: 4.4rem;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.input1{
+    width: 270px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.input1:focus{
+    outline: 5px double red;
+}
+ .loading{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    right: 41%;
+    top: 30%;
+    font-size: 2rem;
+    font-weight: 700;
+    scale: 0;
+  
+} 
+ .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    scale: 0;
+    margin-top: 10px;
+   
+} 
+.city{
+    display: flex;
+    justify-content: baseline;
+    gap: 1.1rem;
+    margin-top: 4rem;
+}
+.country img{
+    height: 1.7rem;
+    width: 2.6rem;
+    margin-top: 2px;
+}
+.city-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin-left: 7%;
+    gap: 3rem;
+}
+.desc{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.ima{
+    height: 3.6rem;
+    width: 4rem;
+}
+.temp{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.temp1{
+    display: flex;
+    gap: 5px;
+}
+.temp1 span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.box{
+    
+    width: 20%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.li{
+    font-size: 1.5rem;
+    margin-top: 4px;
+    font-weight: 600;
+}
+.active{
+    scale: 1;
+}
